@@ -2,7 +2,6 @@
 
 var temperature_celsius = 0;
 var temperature_fahrenheit = 0;
-var APIkey = 'b5092f1e87d5c7639fdbd3bb8e822a4b';
 
 function getLocationAndWeather() {
     $.ajax({
@@ -20,7 +19,7 @@ function setLocation(cityCountry, loc) {
     var coords = loc.split(',');
     var lat = coords[0];
     var lon = coords[1];
-    var weatherURL = 'http://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + lon + '&appid=' + APIkey + '&units=metric';
+    var weatherURL = 'https://salt-horse.gomix.me/api/weather?lat=' + lat + '&lon=' + lon;
     $.ajax({
         url: weatherURL,
         success: function(weatherData) {
