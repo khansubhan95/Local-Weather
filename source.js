@@ -6,7 +6,7 @@ var APIkey = 'b5092f1e87d5c7639fdbd3bb8e822a4b';
 
 function getLocationAndWeather() {
     $.ajax({
-        url: 'http://ipinfo.io',
+        url: 'https://ipinfo.io',
         success: function(json) {
             setLocation(json.city + ' ' + json.country, json.loc);
         },
