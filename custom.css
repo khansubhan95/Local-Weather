@@ -1,0 +1,53 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+p {
+	font-size: 250%;
+	font-family: 'Prociono', serif;
+}
+
+h1 {
+	font-family: 'Prociono', serif;
+	font-size: 250%;
+}
+
+.wi,
+.fa {
+	font-size:250%;
+	color:white;
+}
+
+body {
+	margin-bottom: 60px;
+	color: white;
+	background-color: #924da3;
+}
+
+footer p {
+	color: white;
+	font-size: 150%;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #924da3;
+}
+
+.credit,
+.credit:visited {
+	color:white;
+}
+
+/*#924da3*/
