@@ -19,7 +19,7 @@ function setLocation(cityCountry, loc) {
     var coords = loc.split(',');
     var lat = coords[0];
     var lon = coords[1];
-    var weatherURL = 'https://salt-horse.gomix.me/api/weather?lat=' + lat + '&lon=' + lon;
+    var weatherURL = 'https://salt-horse.glitch.me/api/weather?lat=' + lat + '&lon=' + lon;
     $.ajax({
         url: weatherURL,
         success: function(weatherData) {
